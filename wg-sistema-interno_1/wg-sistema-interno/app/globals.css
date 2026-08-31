@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  border-color: theme("colors.border");
+}
+
+body {
+  font-feature-settings: "ss01";
+}
+
+::selection {
+  background: theme("colors.gold");
+  color: theme("colors.ink");
+}
